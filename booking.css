@@ -1,0 +1,85 @@
+body{
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booking-form-box{
+    max-width: 450px;
+    border-style:solid;
+    margin: 2% auto 0  60%;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    box-shadow: -2px -2px 5px greenyellow;
+    transition: 1s;
+   
+}
+.a1{
+    width: 340px;
+    padding: 4px;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    background: transparent;
+    margin: 2%;
+    margin-left: 8%;
+    color: white;
+}
+.a2{
+    margin-left: 10%;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bakbak One', cursive;
+}
+.btn{
+    margin: 5%;
+    padding: 8px;
+    margin-left:33%;
+    width: 30%;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    background: transparent;
+    color: white;
+    transition: 1s;
+  
+
+}
+.reach-us-box{
+    margin-top:-41%;
+    max-width: 450px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 5%;
+    backdrop-filter: blur(3px);
+    padding-bottom: 10%;
+    border-width: 2px;
+    box-shadow: 2px 2px 20px yellow;
+    transition: 1s;
+   
+
+}
+.content{
+    padding: 4px;
+    word-spacing: 4px;
+    color: white;
+    margin: 5%;
+    font-size: 17px;
+    font-family: 'Bakbak One', cursive;
+}
+.btn:hover{
+    box-shadow: 3px 3px 10px lightgreen;
+    cursor: pointer;
+}
+.reach-us-box:hover{
+    max-width: 500px;
+    transition: 1s;
+    height: 250px;   
+}
+.booking-form-box:hover{
+    box-shadow: -5px -5px 20px greenyellow;
+    transition: 1s;
+}
+    
